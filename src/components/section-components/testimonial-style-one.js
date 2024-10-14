@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
 
 class TestimonialOne extends Component {
 
@@ -49,8 +47,8 @@ class TestimonialOne extends Component {
 			  <div className="container">
 			    <div className="testimonials-one__top">
 			      <div className="block-title text-left">
+					<br></br>
 			        <p><span>Los clientes dicen</span></p>
-			        <h3>Conozca todo sobre las <br /> habilidades profesionales</h3>
 			        <div className="block-title__line" />{/* /.block-title__line */}
 			      </div>{/* /.block-title */}
 			      <div className="testimonials-one__carousel-btn__wrap">
@@ -71,12 +69,9 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-1.jpg"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>VanRen ha transformado nuestra forma de abordar las ventas. Su entrenamiento en inteligencia emocional 
-							ha sido un cambio de juego para nuestro equipo. No solo hemos visto un aumento en nuestras tasas de cierre, 
-							sino que también hemos construido relaciones más fuertes y duraderas con nuestros clientes. 
-							Recomiendo altamente sus servicios a cualquier empresa que busque mejorar su rendimiento comercial.</p>
+			            <p>VanRen ha transformado nuestra forma de abordar las ventas. Su entrenamiento en inteligencia emocional ha sido un cambio de juego para nuestro equipo. No solo hemos visto un aumento en nuestras tasas de cierre, sino que también hemos construido relaciones más fuertes y duraderas con nuestros clientes. Recomiendo altamente sus servicios a cualquier empresa que busque mejorar su rendimiento comercial.</p>
 			            <h3>Laura M</h3>
-			            <span>Directora de Ventas &amp; TechSoluciones</span>
+			            <span>Directora de Ventas & TechSoluciones</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
@@ -87,11 +82,9 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-2.jpg"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Gracias a VanRen, nuestro equipo de ventas ha desarrollado habilidades esenciales en inteligencia emocional y técnicas de cierre de ventas. 
-							Su enfoque personalizado y su capacidad para entender nuestras necesidades específicas nos ha permitido alcanzar objetivos comerciales 
-							que antes parecían inalcanzables. VanRen no solo optimiza nuestros procesos de ventas, sino que también mejora la moral y la cohesión del equipo.</p>
+			            <p>Gracias a VanRen, nuestro equipo de ventas ha desarrollado habilidades esenciales en inteligencia emocional y técnicas de cierre de ventas. Su enfoque personalizado y su capacidad para entender nuestras necesidades específicas nos ha permitido alcanzar objetivos comerciales que antes parecían inalcanzables. VanRen no solo optimiza nuestros procesos de ventas, sino que también mejora la moral y la cohesión del equipo.</p>
 			            <h3>Carlos G</h3>
-			            <span>Gerente General &amp; InnoBiz</span>
+			            <span>"Gerente General & InnoBiz</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
@@ -102,10 +95,7 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-3.jpg"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>La consultoría de VanRen ha sido fundamental para el crecimiento de nuestro negocio. Sus estrategias de cierre de ventas 
-							y su análisis detallado de nuestros procesos comerciales nos han permitido mejorar significativamente nuestra eficiencia y efectividad. 
-							Además, la capacitación en inteligencia emocional ha sido invaluable para nuestro equipo. Hemos visto una notable mejora en nuestras 
-							relaciones con los clientes y en nuestros resultados financieros.</p>
+			            <p>La consultoría de VanRen ha sido fundamental para el crecimiento de nuestro negocio. Sus estrategias de cierre de ventas y su análisis detallado de nuestros procesos comerciales nos han permitido mejorar significativamente nuestra eficiencia y efectividad. Además, la capacitación en inteligencia emocional ha sido invaluable para nuestro equipo. Hemos visto una notable mejora en nuestras relaciones con los clientes y en nuestros resultados financieros.</p>
 			            <h3>Ana P</h3>
 			            <span>CEO, EmprendeMas</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />

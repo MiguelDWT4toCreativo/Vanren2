@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
 
 class WhyChooseUs extends Component {
 
@@ -23,12 +21,12 @@ class WhyChooseUs extends Component {
                   <img src={publicUrl + "assets/images/shapes/service-i-1.png"} alt={imagealt} />
                 </div>{/* /.service-one__icon */}
                 <div className="service-one__top-content">
-                  <h3>Entrenamiento en Inteligencia Emocional</h3>
-                  <p>Tenga éxito con VanRen Consultoría</p>
+                  <h3>Entrenamiento con Inteligencia Emocional</h3>
+                  {/* <p>Tenga éxito con VanRen Consultoría</p> */}
                 </div>{/* /.service-one__top-content */}
               </div>{/* /.service-one__top */}
-              <p><h4>Estrategia Empresarial y Entrenamiento en Inteligencia Emocional</h4>
-                Nuestros programas de entrenamiento están diseñados para mejorar el liderazgo, la empatía, la resiliencia y la gestión del estrés dentro de su equipo. Con VanRen, su empresa desarrollará habilidades emocionales esenciales para establecer relaciones sólidas y duraderas con los clientes.</p>
+              <h4>Estrategia Empresarial y Entrenamiento con Inteligencia Emocional</h4>
+              <p>Nuestros programas de entrenamiento están diseñados para mejorar la gestión de equipos de trabajo. Con VanRen, su empresa desarrollará habilidades emocionales esenciales para establecer relaciones sólidas y a largo plazo.</p>
             </div>{/* /.service-one__single */}
           </div>{/* /.col-lg-4 */}
           <div className="col-lg-4">
@@ -39,13 +37,13 @@ class WhyChooseUs extends Component {
                 </div>{/* /.service-one__icon */}
                 <div className="service-one__top-content">
                   <h3>Estrategias de Cierre de Ventas</h3>
-                  <p>Optimización de Ventas</p>
+                  {/* <p>Optimización de Ventas</p> */}
                   <br></br>
                   <br></br>
                 </div>{/* /.service-one__top-content */}
               </div>{/* /.service-one__top */}
-              <p><h4>Soluciones Personalizadas para el Cierre de Ventas</h4>
-              Analizamos detalladamente los procesos de ventas existentes y desarrollamos estrategias personalizadas para mejorar la eficiencia y efectividad en el cierre de negocios. Desde técnicas de negociación hasta el manejo de objeciones, optimizamos cada paso del proceso de venta para maximizar las conversiones.</p>
+              <h4>Soluciones Personalizadas para el Cierre de Ventas</h4>
+              <p>Analizamos detalladamente los procesos de ventas existentes y desarrollamos estrategias personalizadas para mejorar la eficiencia y efectividad en el cierre de negocios. Desde técnicas de negociación hasta el manejo de objeciones, optimizamos cada paso del proceso de venta para maximizar las conversiones.</p>
             </div>{/* /.service-one__single */}
           </div>{/* /.col-lg-4 */}
           <div className="col-lg-4">
@@ -56,12 +54,12 @@ class WhyChooseUs extends Component {
                 </div>{/* /.service-one__icon */}
                 <div className="service-one__top-content">
                   <h3>Consultoría en Estrategias Comerciales</h3>
-                  <p>Potencial Comercial</p>
+                  {/* <p>Potencial Comercial</p> */}
                   <br></br>
                 </div>{/* /.service-one__top-content */}
               </div>{/* /.service-one__top */}
-              <p><h4>Consultoría y Estrategias Comerciales Innovadoras</h4>
-                Proporcionamos un enfoque integral que combina técnicas de ventas probadas con inteligencia emocional para transformar sus resultados comerciales. Nuestros servicios están diseñados para comprender y satisfacer las necesidades específicas de cada cliente, creando estrategias que impulsen el éxito a largo plazo.</p>
+              <h4>Consultoría y Estrategias Comerciales Innovadoras</h4>
+              <p>Proporcionamos un enfoque integral que combina técnicas de ventas probadas con inteligencia emocional para transformar sus resultados comerciales. Nuestros servicios están diseñados para comprender y satisfacer las necesidades específicas de cada cliente, creando estrategias que impulsen el éxito a largo plazo.</p>
             </div>{/* /.service-one__single */}
           </div>{/* /.col-lg-4 */}
         </div>{/* /.row */}

@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-
 class Footer_v1 extends Component {
 
 	componentDidMount() {
@@ -70,7 +68,7 @@ class Footer_v1 extends Component {
 										<div className="footer-widget__contact-box">
 											<div className="footer-widget__contact-top">
 												<i className="far fa-phone" />
-												<h3>Phone</h3>
+												<h3>Teléfono</h3>
 											</div>{/* /.footer-widget__contact-top */}
 											<p><a href="tel: 929 693 1556">USA 929 693 1556</a></p>
 										</div>{/* /.footer-widget__contact-box */}
@@ -89,7 +87,7 @@ class Footer_v1 extends Component {
 					<div className="site-footer-one__bottom">
 						<div className="container">
 							<div className="site-footer-one__bottom-line" />{/* /.site-footer-one__bottom-line */}
-							<p>Copy@2022 <a href="#">VanRen</a>. All Right Reserved. Design By TESEO. </p>
+							<p>Copy@2024 <a href="#">VanRen</a>. All Right Reserved. Design By Cuarto Creativo. </p>
 						</div>{/* /.container */}
 					</div>{/* /.site-footer-one__bottom */}
 				</footer>
